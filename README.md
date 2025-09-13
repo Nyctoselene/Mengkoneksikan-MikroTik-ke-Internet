@@ -48,13 +48,14 @@ Use the following DNS server address:
 Prefered DNS server: 8.8.8.8
 Secondary DNS server: 8.8.4.4
 
-
+![Network PC](Network%20PC.png)
 
 Test koneksi PC Klien/Laptop ke internet melalui cmd
 Windows+R > ketik cmd lalu enter
 Ketik ping ke alamat tujuan (contoh: ping google.com)
 Ketik tracert ke alamat tujuan (contoh: tracert google.com)
 
+![Ping PC(Ping%20PC.png)
 
 Sumber Internet IP Static
 

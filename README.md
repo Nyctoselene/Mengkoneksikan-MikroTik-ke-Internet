@@ -2,18 +2,24 @@
 
 Metode pengkoneksian MikroTik ke internet terdapat 2 metode, yaitu sebagai berikut:
 
-Sumber Internet IP Dynamic
+# 1. Sumber Internet IP Dynamic
 
-Perintah konfigurasi MikroTik ke internet dengan IP Dynamic
-Pasangkan pengkabelan LAN sesuai dengan topologi di atas
-Setting nama interface RouterBoard MikroTik: 
-ether1-WAN (Untuk koneksi ke internet), dan
-ether2-LAN (Untuk konrksi ke PC Klien)
+Perintah konfigurasi MikroTik ke internet dengan IP Dynamic\
+Pasangkan pengkabelan LAN sesuai dengan topologi di atas\
+Setting nama interface RouterBoard MikroTik:\
+ether1-WAN (Untuk koneksi ke internet), dan\
+ether2-LAN (Untuk konrksi ke PC Klien)\
+
+![Interface](Interface.png)
 
 Konfigurasi DHCP Client ether1-WAN agar dapat IP dari dari Router Telkom/ISP/Internet
 IP > DHCP Client > + Interface = ether1-WAN > Apply > OK
 
+![DHCP Client](DHCP%20Client.png)
+
 Cek pada tab status, lihat IP yang didapatkan oleh ether1-WAN
+
+![Status](Status.png)
 
 Lakukan pengecekan koneksi dari MikroTik ke Internet
 New Teminal > ketik perintah ping lalu alamat tujuan
@@ -22,16 +28,15 @@ IP > Address > + Address = 192.168.10.1/24
 Interface = ether2-LAN
 Apply > OK
 
+![Ping](Ping.png)
+
 Lakukan konfigurasi NAT, agar PC Klien dapat terkoneksi Internet melewati Mikrotik:
 IP > Firewall > NAT > +
 General > Chain > srcnat
 Out Interface: ether1-WAN
 Action > Masquerade
 
-
-
-
-
+! [Address](Address.png)
 
 Konfigurasi IP PC Klien/Laptop
 Start > Control Panel > Network and Internet > Network and Sharing Center >Change Adapter Setting > Network Connection

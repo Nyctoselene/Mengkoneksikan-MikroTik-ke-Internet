@@ -4,7 +4,6 @@ Metode pengkoneksian MikroTik ke internet terdapat 2 metode, yaitu sebagai berik
 
 # 1. Sumber Internet IP Dynamic
 
-Perintah konfigurasi MikroTik ke internet dengan IP Dynamic\
 Pasangkan pengkabelan LAN sesuai dengan topologi di atas\
 Setting nama interface RouterBoard MikroTik:\
 ether1-WAN (Untuk koneksi ke internet), dan\
@@ -36,7 +35,7 @@ General > Chain > srcnat
 Out Interface: ether1-WAN
 Action > Masquerade
 
-! [Address](Address.png)
+![Address](Address.png)
 
 Konfigurasi IP PC Klien/Laptop
 Start > Control Panel > Network and Internet > Network and Sharing Center >Change Adapter Setting > Network Connection
@@ -48,6 +47,8 @@ Default gateway: 192.168.10.1
 Use the following DNS server address:
 Prefered DNS server: 8.8.8.8
 Secondary DNS server: 8.8.4.4
+
+
 
 Test koneksi PC Klien/Laptop ke internet melalui cmd
 Windows+R > ketik cmd lalu enter

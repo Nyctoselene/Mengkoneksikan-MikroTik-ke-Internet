@@ -70,7 +70,7 @@ Ketik tracert ke alamat tujuan (contoh: tracert google.com)
 
 ![Tracert](Tracert.png)
 
-Sumber Internet IP Static
+# 2. Sumber Internet IP Static
  Topologinya sebagai berikut:
  
 ![TopoS](TopoS.png)

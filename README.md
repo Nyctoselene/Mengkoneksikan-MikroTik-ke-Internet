@@ -1,4 +1,4 @@
-# Mengkoneksikan-MikroTik-ke-Internet
+# Mengoneksikan-MikroTik-ke-Internet
 
 Metode pengkoneksian MikroTik ke internet terdapat 2 metode, yaitu sebagai berikut:
 
@@ -10,7 +10,7 @@ Metode pengkoneksian MikroTik ke internet terdapat 2 metode, yaitu sebagai berik
 Pasangkan pengkabelan LAN sesuai dengan topologi di atas\
 Setting nama interface RouterBoard MikroTik:\
 ether1-WAN (Untuk koneksi ke internet), dan\
-ether2-LAN (Untuk konrksi ke PC Klien)\
+ether2-LAN (Untuk koneksi ke PC Klien)\
 
 ![Interface](Interface.png)
 
@@ -132,7 +132,7 @@ New Teminal > ketik perintah ping lalu alamat tujuan
 ![PingS](PingS.png)
 
 Setelah terkoneksi, setting IP pada interface ether2-LAN
-IP > Address > + Address = 10.10.30.201/30
+IP > Address > + Address = 172.16.16.30/25
 Interface = ether2-LAN
 Apply > OK
 

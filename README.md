@@ -47,22 +47,20 @@ Action > Masquerade
 
 ![NAT3](NAT.png)
 
-Konfigurasi IP PC Klien/Laptop
-Start > Control Panel > Network and Internet > Network and Sharing Center >Change Adapter Setting > Network Connection
-Klik kanan Local Area Connection > Properties > TCP/IPv4 > Properties
-Use the following IP address:
-IP address: 192.168.10.2
-Subnet mask: 255.255.255.0
-Default gateway: 192.168.10.1
-Use the following DNS server address:
-Prefered DNS server: 8.8.8.8
+Konfigurasi IP PC Klien/Laptop\
+Start > Control Panel > Network and Internet > Network and Sharing Center >Change Adapter Setting > Network Connection\
+Klik kanan Local Area Connection > Properties > TCP/IPv4 > Properties\
+IP address: 192.168.10.2\
+Subnet mask: 255.255.255.0\
+Default gateway: 192.168.10.1\
+Prefered DNS server: 8.8.8.8\
 Secondary DNS server: 8.8.4.4
 
 ![Network PC](Network%20PC.png)
 
-Test koneksi PC Klien/Laptop ke internet melalui cmd
-Windows+R > ketik cmd lalu enter
-Ketik ping ke alamat tujuan (contoh: ping google.com), jika berahsil maka akan reply seperti berikut
+Test koneksi PC Klien/Laptop ke internet melalui cmd\
+Windows+R > ketik cmd lalu enter\
+Ketik ping ke alamat tujuan (contoh: ping google.com), jika berhasil maka akan reply seperti berikut
 
 ![Ping PC](Ping%20PC.png)
 
@@ -138,21 +136,19 @@ Apply > OK
 
 ![Address2](Address2.png)
 
-Konfigurasi IP PC Klien/Laptop
-Start > Control Panel > Network and Internet > Network and Sharing Center >Change Adapter Setting > Network Connection
-Klik kanan Local Area Connection > Properties > TCP/IPv4 > Properties
-Use the following IP address:
-IP address: 10.10.30.202
-Subnet mask: 255.255.255.252
-Default gateway: 10.10.30.201
-Use the following DNS server address:
-Prefered DNS server: 192.168.70.1
+Konfigurasi IP PC Klien/Laptop\
+Start > Control Panel > Network and Internet > Network and Sharing Center >Change Adapter Setting > Network Connection\
+Klik kanan Local Area Connection > Properties > TCP/IPv4 > Properties\
+IP address: 10.10.30.202\
+Subnet mask: 255.255.255.252\
+Default gateway: 10.10.30.201\
+Prefered DNS server: 192.168.70.1\
 Secondary DNS server: 8.8.8.8
 
 ![Network PC S](Network%20PC20%S.png)
 
-Test koneksi PC Klien/Laptop ke internet melalui cmd
-Windows+R > ketik cmd lalu enter
+Test koneksi PC Klien/Laptop ke internet melalui cmd\
+Windows+R > ketik cmd lalu enter\
 Ketik ping ke alamat tujuan (contoh: ping google.com)
 
 ![Ping PC S](Ping%20PC%20S.png)

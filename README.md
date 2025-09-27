@@ -14,12 +14,12 @@ ether2-LAN (Untuk koneksi ke PC Klien)\
 
 ![Interface](Interface.png)
 
-Konfigurasi DHCP Client ether1-WAN agar dapat IP dari dari Router Telkom/ISP/Internet
+Konfigurasi DHCP Client ether1-WAN agar dapat IP dari dari ISP
 IP > DHCP Client > + Interface = ether1-WAN > Apply > OK
 
 ![DHCP Client](DHCP%20Client.png)
 
-Cek pada tab status, lihat IP yang didapatkan oleh ether1-WAN
+Cek pada tab status, lihat apakah IP sudah didapatkan atau belum
 
 ![Status](Status.png)
 
@@ -85,7 +85,7 @@ IP > DHCP Client > + Interface = ether1-WAN > Apply > OK
 
 Cek pada tab status, catat IP, DNS, dan Gateway yang didapatkan oleh ether1-WAN untuk nanti dikoneksikan dengan metode static
 
-![ISP](ISP.png)
+![Status](Status.png)
 
 Hapus DHCP Client
 IP > DHCP Client > ether1-WAN > -
@@ -98,6 +98,10 @@ Interface = ether1-WAN
 Apply > OK
 
 ![Address ISP](Address%20ISP.png)
+
+Tambahkan Route secara static untuk menghubungkan ether1-WAN ke Gateway dari ISP
+
+![Route](Route.png)
 
 Lakukan konfigurasi NAT, agar PC Klien dapat terkoneksi Internet melewati Mikrotik:
 IP > Firewall > NAT > +
@@ -147,7 +151,7 @@ Test koneksi PC Klien/Laptop ke internet melalui cmd\
 Windows+R > ketik cmd lalu enter\
 Ketik ping ke alamat tujuan (contoh: ping google.com)
 
-![Ping PC S](Ping%20PC%20S.png)
+![Ping PC](Ping%20PC.png)
 
 Ketik tracert ke alamat tujuan (contoh tracert google.com)
 

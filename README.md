@@ -118,11 +118,7 @@ IP > DNS > + > Primary Servers = 192.168.70.1
 Secondary Servers = 8.8.8.8
 Apply > OK
 
-![DNS](DNS.png)
-
-Setting Gateway sesuai dengan Gateway yang didapatkan dari DHCP Client
-
-![Gateway](Gateway.png)
+![DNS](DNS.png) 
 
 Lakukan pengecekan koneksi dari MikroTik ke Internet
 New Teminal > ketik perintah ping lalu alamat tujuan
@@ -134,7 +130,7 @@ IP > Address > + Address = 172.16.16.30/25
 Interface = ether2-LAN
 Apply > OK
 
-![Address2](Address2.png)
+![Address2](Address2.jpg) 
 
 Konfigurasi IP PC Klien/Laptop\
 Start > Control Panel > Network and Internet > Network and Sharing Center >Change Adapter Setting > Network Connection\

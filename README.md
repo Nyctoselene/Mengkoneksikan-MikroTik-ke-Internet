@@ -1,6 +1,6 @@
-# Mengoneksikan-MikroTik-ke-Internet
+# Menghubungkan MikroTik ke Internet
 
-Metode pengkoneksian MikroTik ke internet terdapat 2 metode, yaitu sebagai berikut:
+Metode penghubungan MikroTik ke internet terdapat 2 metode, yaitu sebagai berikut:
 
 # 1. Sumber Internet IP Dynamic
  Topologinya sebagai berikut
@@ -43,9 +43,7 @@ Action > Masquerade
 
 ![NAT1](NAT1.png)
 
-![NAT2](NAT2.png)
-
-![NAT3](NAT.png)
+![NAT2](NAT2.png) 
 
 Konfigurasi IP PC Klien/Laptop\
 Start > Control Panel > Network and Internet > Network and Sharing Center >Change Adapter Setting > Network Connection\
@@ -107,11 +105,9 @@ General > Chain > srcnat
 Out Interface: ether1-WAN
 Action > Masquerade
 
-![NATS1](NATS1.png)
+![NAT1](NAT1.png)
 
-![NATS2](NATS2.png)
-
-![NATS3](NATS3.png)
+![NAT2](NAT2.png)
 
 Setting DNS sesuai dengan DNS yang didapatkan dari DHCP Client
 IP > DNS > + > Primary Servers = 192.168.70.1

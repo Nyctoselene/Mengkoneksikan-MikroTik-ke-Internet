@@ -118,7 +118,7 @@ IP > DNS > + > Primary Servers = 192.168.70.1
 Secondary Servers = 8.8.8.8
 Apply > OK
 
-![DNS2](DNS2.png)
+![DNS](DNS.png)
 
 Setting Gateway sesuai dengan Gateway yang didapatkan dari DHCP Client
 
@@ -127,7 +127,7 @@ Setting Gateway sesuai dengan Gateway yang didapatkan dari DHCP Client
 Lakukan pengecekan koneksi dari MikroTik ke Internet
 New Teminal > ketik perintah ping lalu alamat tujuan
 
-![PingS](PingS.png)
+![Ping](Ping.png)
 
 Setelah terkoneksi, setting IP pada interface ether2-LAN
 IP > Address > + Address = 172.16.16.30/25

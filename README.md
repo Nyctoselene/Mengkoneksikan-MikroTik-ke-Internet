@@ -76,12 +76,12 @@ Setting nama interface RouterBoard MikroTik: \
 ether1-WAN (Untuk koneksi ke internet), dan\
 ether2-LAN (Untuk konrksi ke PC Klien)
 
-![Interface2](Interface2.png)
+![Interface](Interface.png)
 
 Konfigurasi DHCP Client ether1-WAN untuk mendapatkan IP default dari ISP (jika sudah mengetahui IP default dari ISP, bisa langsung skip ke bagian setting IP)\
 IP > DHCP Client > + Interface = ether1-WAN > Apply > OK
 
-![DHCP Client2](DHCP%20Client2.png)
+![DHCP Client](DHCP%20Client.png)
 
 Cek pada tab status, catat IP, DNS, dan Gateway yang didapatkan oleh ether1-WAN untuk nanti dikoneksikan dengan metode static
 
